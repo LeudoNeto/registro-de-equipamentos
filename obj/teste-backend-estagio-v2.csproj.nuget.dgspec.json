@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\teste-backend-estagio-v2.csproj": {}
+    "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\teste-backend-estagio-v2.csproj": {
+    "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\teste-backend-estagio-v2.csproj",
+        "projectUniqueName": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj",
         "projectName": "teste-backend-estagio-v2",
-        "projectPath": "C:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\teste-backend-estagio-v2.csproj",
+        "projectPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj",
         "packagesPath": "C:\\Users\\Leudo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\obj\\",
+        "outputPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leudo\\AppData\\Roaming\\NuGet\\NuGet.Config"

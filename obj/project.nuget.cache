@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2LHZXySxCcYF6BYkq5VEZyP11Mb1YxuYpT+qKNUTDYBQYko2Fr1bLs7Cjl7FOERHLqcQfqG3R4PgMCcVx6Vb/A==",
+  "dgSpecHash": "WB916sPlsb9rhdwWOLwQvF8YqUE7HoK2CWyi1Xe/NYfnOp0CcpRA4Z6OniRs3ck7CN+I+iF+wyrDIITZxmz0CQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\teste-backend-estagio-v2.csproj",
+  "projectFilePath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leudo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Leudo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",

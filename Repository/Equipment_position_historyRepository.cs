@@ -17,9 +17,9 @@ namespace equipment_position_history.Repository
         {
             return await _context.Equipment_position_historys.ToListAsync();
         }
-        public async Task<Equipment_position_history> BuscaEquipment_position_history(int equipment_id)
+        public async Task<Equipment_position_history> BuscaEquipment_position_history(Guid equipment_id)
         {
-            return await _context.Equipment_position_historys.Where(x => x.Equipment_id == equipment_id).FirstOrDefaultAsync();
+            return await _context.Equipment_position_historys.Where(x => x.Equipment_id == equipment_id).OrderBy(x => x.Date).LastOrDefaultAsync();
         }
         
         public void AdicionaEquipment_position_history(Equipment_position_history equipment_position_history)

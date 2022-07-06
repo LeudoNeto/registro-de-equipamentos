@@ -947,11 +947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\teste-backend-estagio-v2.csproj",
+      "projectUniqueName": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj",
       "projectName": "teste-backend-estagio-v2",
-      "projectPath": "c:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\teste-backend-estagio-v2.csproj",
+      "projectPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj",
       "packagesPath": "C:\\Users\\Leudo\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Leudo\\Documents\\GitHub\\teste-backend-estagio-v2\\meu-teste\\obj\\",
+      "outputPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leudo\\AppData\\Roaming\\NuGet\\NuGet.Config"
