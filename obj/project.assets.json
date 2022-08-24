@@ -947,9 +947,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj",
-      "projectName": "teste-backend-estagio-v2",
-      "projectPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\teste-backend-estagio-v2.csproj",
+      "projectUniqueName": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\registro-de-equipamentos.csproj",
+      "projectName": "registro-de-equipamentos",
+      "projectPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\registro-de-equipamentos.csproj",
       "packagesPath": "C:\\Users\\Leudo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\obj\\",
       "projectStyle": "PackageReference",
