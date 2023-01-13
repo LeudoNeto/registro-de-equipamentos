@@ -23,10 +23,10 @@ namespace equipment_state_history.Controllers
                     ? Ok(equipment_state_historys)
                     : NoContent();
         }
-        [HttpGet("{equipment_model_id}&{equipment_state_id}")]
-        public async Task<IActionResult> GetById(Guid equipment_model_id, Guid equipment_state_id)
+        [HttpGet("{equipment_id}")]
+        public async Task<IActionResult> GetById(Guid equipment_id)
         {
-            var equipment_state_history = await _repository.BuscaEquipment_state_history(equipment_model_id, equipment_state_id);
+            var equipment_state_history = await _repository.BuscaEquipment_state_history(equipment_id);
             return equipment_state_history != null
                     ? Ok(equipment_state_history)
                     : NotFound("Histórico de estado de equipamento não encontrado");
@@ -41,10 +41,10 @@ namespace equipment_state_history.Controllers
                     : BadRequest("Erro ao salvar o histórico de estado de equipamento");
         }
 
-        [HttpPut("{equipment_model_id}&{equipment_state_id}")]
-        public async Task<IActionResult> Put(Guid equipment_model_id, Guid equipment_state_id, Equipment_state_history equipment_state_history)
+        [HttpPut("{equipment_id}")]
+        public async Task<IActionResult> Put(Guid equipment_id, Equipment_state_history equipment_state_history)
         {
-            var equipment_state_historyBanco = await _repository.BuscaEquipment_state_history(equipment_model_id, equipment_state_id);
+            var equipment_state_historyBanco = await _repository.BuscaEquipment_state_history(equipment_id);
             if (equipment_state_historyBanco == null) return NotFound("Histórico de estado de equipamento não encontrado");
         
             equipment_state_historyBanco.Equipment_id = equipment_state_history.Equipment_id;
@@ -63,7 +63,7 @@ namespace equipment_state_history.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(Guid equipment_id, Guid equipment_state_id)
         {
-            var equipment_state_historyBanco = await _repository.BuscaEquipment_state_history(equipment_id, equipment_state_id);
+            var equipment_state_historyBanco = await _repository.BuscaEquipment_state_history(equipment_id);
             if (equipment_state_historyBanco == null) return NotFound("Estado de quipamento não encontrado");
 
             _repository.DeletaEquipment_state_history(equipment_state_historyBanco);

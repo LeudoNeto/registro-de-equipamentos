@@ -947,11 +947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\registro-de-equipamentos.csproj",
+      "projectUniqueName": "C:\\Users\\Leudo\\Documents\\GitHub\\registro-de-equipamentos\\registro-de-equipamentos.csproj",
       "projectName": "registro-de-equipamentos",
-      "projectPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\registro-de-equipamentos.csproj",
+      "projectPath": "C:\\Users\\Leudo\\Documents\\GitHub\\registro-de-equipamentos\\registro-de-equipamentos.csproj",
       "packagesPath": "C:\\Users\\Leudo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\obj\\",
+      "outputPath": "C:\\Users\\Leudo\\Documents\\GitHub\\registro-de-equipamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leudo\\AppData\\Roaming\\NuGet\\NuGet.Config"

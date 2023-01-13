@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U/7UXxVK87DDDjSbf0n4slDpHL7J5rZBNRg+8S5zKC7mQKSxbHqBslElkhCsizasfUIlKcleDeWRReYNK0lnqA==",
+  "dgSpecHash": "qTExq0yKuq+3vUlDGQrxL6C76a3Qdn1IbLR4ky165ghFGNi3QwYMnIJvWdD1lgZkjPa1RwSufD8RVTqI8aE+lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leudo\\Documents\\GitHub\\api-teste-backend\\registro-de-equipamentos.csproj",
+  "projectFilePath": "C:\\Users\\Leudo\\Documents\\GitHub\\registro-de-equipamentos\\registro-de-equipamentos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leudo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Leudo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
